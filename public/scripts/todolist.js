@@ -1,11 +1,9 @@
 console.log('js');
 
 $(document).ready(onReady);
-// addList();
 getList();
 function onReady(){
   console.log('jQ sourced');
-
   //click listeners
 //create a complete and delete button and functions with ajax calls
 $(".addbutton").on('click', getList);
@@ -45,6 +43,5 @@ $.ajax ({
     console.log(response);
 
  }
-
   });
 }

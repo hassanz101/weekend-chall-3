@@ -52,7 +52,7 @@ app.get ('/getList', function(req, res){
        }); // end on end
      } // end on error
    }); // end on pool.connect
- }); //end app.get
+ }); //end getList POST
 
  app.post( '/addList', function ( req, res ) {
   pool.connect( function( err, connection, done ){
